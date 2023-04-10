@@ -20,7 +20,7 @@ class Program
 
         int fer = 100;
         double cel = (double)(fer - 32) * 5 / 9;
-        Console.WriteLine("Celsius temperature: "+cel+" degrees celsius.");
+        Console.WriteLine(fer+" degrees Fahrenheit is "+cel+" degrees celsius.");
     }
 }
 
