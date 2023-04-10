@@ -11,8 +11,11 @@ class Program
 
         Console.WriteLine("Please enter your first name: ");
         string firstName = Console.ReadLine();
-
-        Console.WriteLine("Hello, "+firstName+"!");
+        Console.WriteLine("Now your last name: ");
+        string lastName = Console.ReadLine();
+        //Console.WriteLine("Hello, "+firstName+" "+lastName+"!");
+        string fullName = firstName + " " + lastName;
+        Console.WriteLine("My first name is "+firstName+" and my last name is "+lastName+", which means my full name is "+fullName+".");
         
     }
 }
