@@ -16,7 +16,7 @@ class Program
         //Console.WriteLine("Hello, "+firstName+" "+lastName+"!");
         string fullName = firstName + " " + lastName;
         Console.WriteLine("My first name is "+firstName+" and my last name is "+lastName+", which means my full name is "+fullName+".");
-        //jkjkjook
+        //ggg
 
         int fer = 100;
         double cel = (double)(fer - 32) * 5 / 9;
